@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,700&family=Lato&family=Outfit&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,700&family=Lato&family=Outfit&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: hsl(257, 40%, 49%) url("/images/bg-desktop.svg");
+}
+.container{
+   display: flex;
+    margin: auto;
+    width: 100%;
+
+}
+.logo{
+    margin: 20px;
+}
+.img{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: 30px;
+}
+.info{
+color: white;
+margin: 20px;
+width: 50%;
+}
+.title{
+    margin-top: 20px;
+    margin-right: 10px;
+    font-family:'Poppins', serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+}
+button{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    color: hsl(257, 40%, 49%);
+    background: #fff;
+    border-radius: 20px;
+    font-size: 15px;
+    box-shadow:  5px 5px 5px  rgba(0, 0, 0, 0.3);
+    nav-down: auto;
+}
+p{
+    font-size: 20px;
+    font-family: 'Poponis'serif;
+    line-height: 25px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+button:hover{
+    color: #fff;
+    background-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+    box-shadow:  5px 5px 5px  rgba(0, 0, 0, 0.5);
+}
+
